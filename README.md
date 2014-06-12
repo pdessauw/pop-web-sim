@@ -1,2 +1,2 @@
-pop-web-sim
+Pyramid of Possibilities - Web simulator
 ===========
