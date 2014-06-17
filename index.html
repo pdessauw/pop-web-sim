@@ -5,24 +5,31 @@
     </head>
     <body>
         <h1>Pyramid of Possibilities</h1>
-        <h3>Web simulator (version 0.0.2)</h3>
+        <h3>Web simulator (version 0.0.3)</h3>
         
         <p>
             Controls:
             <ul>
                 <li>W, A, S, D to move around</li>
-                <li>Q and E to use the zoom</li>
+                <li>Q and E to go up and down</li>
+                <li>Left click to rotate the camera (working only horizontally for now)</li>
                 <li>SPACE to toggle the animation</li>
-            </ul>  
+            </ul>
         </p>
         
         <div id="pop"></div>
         
-        <script src="resources/js/three.min.js"></script>
-        <script src="resources/js/THREEx.KeyboardState.js"></script>
+        <script src="resources/js/libs/THREE.js"></script>
+        <script src="resources/js/libs/THREEx.KeyboardState.js"></script>
+        <script src="resources/js/libs/Stats.js"></script>
         
-        <script src="resources/js/stats.min.js"></script>
+        <script src="resources/js/camera.js"></script>
+        <script src="resources/js/input/keyboard.js"></script>
+        <script src="resources/js/input/mouse.js"></script>
         
-        <script src="resources/js/pyramid-0.0.2.js"></script>
+        <script src="resources/js/anim/rainbow.js"></script>
+        <script src="resources/js/anim/default.js"></script>
+        <script src="resources/js/platform.js"></script>
+        <script src="resources/js/pyramid.js"></script>
     </body>
 </html>
